@@ -1,4 +1,4 @@
-class artist
+class author
 
   attr_accesor :name
 
@@ -8,6 +8,4 @@ class artist
   end
 end
 
-artist = Artist.new
-artist.name = "Beyonce"
-song.artist.name
+post.author.name
