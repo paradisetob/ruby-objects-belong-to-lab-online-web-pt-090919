@@ -7,6 +7,6 @@ class post
     @ title=title
   end
 end
-author = Author.new
-author.name = "Uncle Bob"
+post = post.new
+post.name = "hello World"
 post.author.name
