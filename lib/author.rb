@@ -7,5 +7,6 @@ class author
     @ name=name
   end
 end
-
+author = Author.new
+author.name = "Uncle Bob"
 post.author.name
