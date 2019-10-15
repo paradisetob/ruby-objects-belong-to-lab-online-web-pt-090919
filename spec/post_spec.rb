@@ -3,20 +3,7 @@ require "spec_helper"
 describe "Post" do
   let!(:post) { Post.new }
   it "has a title" do
-    class author
 
-      attr_accesor :name
-
-      def initialize (name)
-
-        @ name=name
-      end
-    end
-    Post= post.new
-    author.name = "Uncle Bob"
-    post.author.name
-
-  end
 
   it "belongs to an author" do
     author = Author.new
