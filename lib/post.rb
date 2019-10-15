@@ -1,10 +1,10 @@
-class author
+class post
 
-  attr_accesor :name
+  attr_accesor :title
 
-  def initialize (name)
+  def initialize (title)
 
-    @ name=name
+    @ title=title
   end
 end
 author = Author.new
