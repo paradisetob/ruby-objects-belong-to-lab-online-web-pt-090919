@@ -13,4 +13,6 @@ post.name = "hello World"
 post.author.name
 
 author=author.new
-author.name=
+author.name="Uncle Bob"
+
+end
